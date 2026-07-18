@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\core\base64.cpp" />
+    <ClCompile Include="src\core\file_helper.cpp" />
+    <ClCompile Include="src\core\http_client.cpp" />
+    <ClCompile Include="src\core\image_ins.cpp" />
+    <ClCompile Include="src\core\json_manager.cpp" />
+    <ClCompile Include="src\core\log.cpp" />
+    <ClCompile Include="src\core\main_looper.cpp" />
+    <ClCompile Include="src\core\message.cpp" />
+    <ClCompile Include="src\core\mqtt.cpp" />
+    <ClCompile Include="src\core\net_manager.cpp" />
+    <ClCompile Include="src\core\notify.cpp" />
+    <ClCompile Include="src\core\resources.cpp" />
+    <ClCompile Include="src\core\screen.cpp" />
+    <ClCompile Include="src\core\socket_tcp.cpp" />
+    <ClCompile Include="src\core\socket_udp.cpp" />
+    <ClCompile Include="src\core\string_helper.cpp" />
+    <ClCompile Include="src\core\thread.cpp" />
+    <ClCompile Include="src\core\thread_pool.cpp" />
+    <ClCompile Include="src\logic\main_logic.cpp" />
+    <ClCompile Include="src\logic\template_logic.cpp" />
+    <ClCompile Include="src\surface\template_surface.cpp" />
+    <ClCompile Include="src\widget\arc.cpp" />
+    <ClCompile Include="src\widget\barcode.cpp" />
+    <ClCompile Include="src\widget\button.cpp" />
+    <ClCompile Include="src\widget\canvas.cpp" />
+    <ClCompile Include="src\widget\dashboard.cpp" />
+    <ClCompile Include="src\widget\gif.cpp" />
+    <ClCompile Include="src\widget\image.cpp" />
+    <ClCompile Include="src\widget\label.cpp" />
+    <ClCompile Include="src\widget\layer.cpp" />
+    <ClCompile Include="src\widget\led.cpp" />
+    <ClCompile Include="src\widget\lineinput.cpp" />
+    <ClCompile Include="src\widget\list.cpp" />
+    <ClCompile Include="src\widget\object.cpp" />
+    <ClCompile Include="src\widget\page.cpp" />
+    <ClCompile Include="src\widget\qrcode.cpp" />
+    <ClCompile Include="src\widget\slider.cpp" />
+    <ClCompile Include="src\widget\widget.cpp" />
+    <ClCompile Include="src\elui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\elui.h" />
+    <ClInclude Include="src\core\base64.h" />
+    <ClInclude Include="src\core\color.h" />
+    <ClInclude Include="src\core\file_helper.h" />
+    <ClInclude Include="src\core\http_client.h" />
+    <ClInclude Include="src\core\image_ins.h" />
+    <ClInclude Include="src\core\json.hpp" />
+    <ClInclude Include="src\core\json_manager.h" />
+    <ClInclude Include="src\core\log.h" />
+    <ClInclude Include="src\core\main_looper.h" />
+    <ClInclude Include="src\core\message.h" />
+    <ClInclude Include="src\core\mqtt.h" />
+    <ClInclude Include="src\core\net_manager.h" />
+    <ClInclude Include="src\core\notify.h" />
+    <ClInclude Include="src\core\point.h" />
+    <ClInclude Include="src\core\rect.h" />
+    <ClInclude Include="src\core\resources.h" />
+    <ClInclude Include="src\core\screen.h" />
+    <ClInclude Include="src\core\size.h" />
+    <ClInclude Include="src\core\socket_tcp.h" />
+    <ClInclude Include="src\core\socket_udp.h" />
+    <ClInclude Include="src\core\stb_image.h" />
+    <ClInclude Include="src\core\string_helper.h" />
+    <ClInclude Include="src\core\thread.h" />
+    <ClInclude Include="src\core\thread_pool.h" />
+    <ClInclude Include="src\core\velocity_tracker.h" />
+    <ClInclude Include="src\logic\main_logic.h" />
+    <ClInclude Include="src\logic\template_logic.h" />
+    <ClInclude Include="src\surface\template_surface.h" />
+    <ClInclude Include="src\widget\arc.h" />
+    <ClInclude Include="src\widget\barcode.h" />
+    <ClInclude Include="src\widget\button.h" />
+    <ClInclude Include="src\widget\canvas.h" />
+    <ClInclude Include="src\widget\dashboard.h" />
+    <ClInclude Include="src\widget\gif.h" />
+    <ClInclude Include="src\widget\image.h" />
+    <ClInclude Include="src\widget\label.h" />
+    <ClInclude Include="src\widget\layer.h" />
+    <ClInclude Include="src\widget\led.h" />
+    <ClInclude Include="src\widget\lineinput.h" />
+    <ClInclude Include="src\widget\list.h" />
+    <ClInclude Include="src\widget\object.h" />
+    <ClInclude Include="src\widget\page.h" />
+    <ClInclude Include="src\widget\qrcode.h" />
+    <ClInclude Include="src\widget\slider.h" />
+    <ClInclude Include="src\widget\widget.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{9bbe92df-7fa2-4f35-827a-4f521d2dfa60}</ProjectGuid>
+    <RootNamespace>elui</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>$(MSBuildThisFileDirectory)\third_party\msvc\x64\Debug\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(MSBuildThisFileDirectory);$(MSBuildThisFileDirectory)\src;$(MSBuildThisFileDirectory)\lvgl;$(MSBuildThisFileDirectory)\third_party\msvc\x64\include;$(MSBuildThisFileDirectory)\third_party\msvc\x64\include\curl;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>$(MSBuildThisFileDirectory)\third_party\msvc\x64\Release\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(MSBuildThisFileDirectory);$(MSBuildThisFileDirectory)\src;$(MSBuildThisFileDirectory)\lvgl;$(MSBuildThisFileDirectory)\third_party\msvc\x64\include;$(MSBuildThisFileDirectory)\third_party\msvc\x64\include\curl;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;LV_CONF_INCLUDE_SIMPLE;LV_LVGL_H_INCLUDE_SIMPLE;LV_USE_DEV_VERSION;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory);$(MSBuildThisFileDirectory)\src;$(MSBuildThisFileDirectory)\lvgl;$(MSBuildThisFileDirectory)\third_party\msvc\x64\include;$(MSBuildThisFileDirectory)\third_party\msvc\x64\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(MSBuildThisFileDirectory)\third_party\msvc\x64\Debug\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freetype.lib;LvglWindowsStatic.lib;libcurl-d.lib;paho-mqtt3c-static.lib;zlibd.lib;spng.lib;gif.lib;bcrypt.lib;crypt32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if exist "$(ProjectDir)third_party\msvc\x64\$(Configuration)\bin\*.dll" xcopy /Y "$(ProjectDir)third_party\msvc\x64\$(Configuration)\bin\*.dll" "$(TargetDir)"
+if exist "$(ProjectDir)third_party\msvc\x64\$(Configuration)\bin\*.crt" xcopy /Y "$(ProjectDir)third_party\msvc\x64\$(Configuration)\bin\*.crt" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;LV_CONF_INCLUDE_SIMPLE;LV_LVGL_H_INCLUDE_SIMPLE;LV_USE_DEV_VERSION;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory);$(MSBuildThisFileDirectory)\src;$(MSBuildThisFileDirectory)\lvgl;$(MSBuildThisFileDirectory)\third_party\msvc\x64\include;$(MSBuildThisFileDirectory)\third_party\msvc\x64\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(MSBuildThisFileDirectory)\third_party\msvc\x64\Release\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freetype.lib;LvglWindowsStatic.lib;libcurl.lib;paho-mqtt3c-static.lib;zlib.lib;spng.lib;gif.lib;bcrypt.lib;crypt32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if exist "$(ProjectDir)third_party\msvc\x64\$(Configuration)\bin\*.dll" xcopy /Y "$(ProjectDir)third_party\msvc\x64\$(Configuration)\bin\*.dll" "$(TargetDir)"
+if exist "$(ProjectDir)third_party\msvc\x64\$(Configuration)\bin\*.crt" xcopy /Y "$(ProjectDir)third_party\msvc\x64\$(Configuration)\bin\*.crt" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

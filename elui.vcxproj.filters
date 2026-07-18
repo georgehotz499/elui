@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\elui.cpp">
+      <Filter>elui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\base64.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\file_helper.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\http_client.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\json_manager.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\log.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\main_looper.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\message.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\mqtt.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\net_manager.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\notify.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\resources.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\screen.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\socket_tcp.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\socket_udp.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\string_helper.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\thread.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\thread_pool.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\barcode.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\canvas.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\gif.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\image.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\label.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\layer.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\object.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\page.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\qrcode.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\widget.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\image_ins.cpp">
+      <Filter>elui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\main_logic.cpp">
+      <Filter>elui\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\arc.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\button.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\dashboard.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\led.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\lineinput.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\list.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\slider.cpp">
+      <Filter>elui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\template_logic.cpp">
+      <Filter>elui\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\surface\template_surface.cpp">
+      <Filter>elui\surface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="elui">
+      <UniqueIdentifier>{67187f85-502b-4af0-b9cb-ab93d5a05809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="elui\core">
+      <UniqueIdentifier>{39ebd7e0-00a4-4d40-b787-474ef2266641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="elui\logic">
+      <UniqueIdentifier>{d61dd2fc-5f0b-47d1-9691-d66047f3e3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="elui\module">
+      <UniqueIdentifier>{42e883e7-6044-4793-97e4-51ee0a2b2213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="elui\surface">
+      <UniqueIdentifier>{8b96dee6-48ba-4a01-b522-621c1d667c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="elui\widget">
+      <UniqueIdentifier>{ffe1bfc9-86af-461f-a043-45cbb0f121a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\elui.h">
+      <Filter>elui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\base64.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\color.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\file_helper.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\http_client.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\json.hpp">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\json_manager.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\log.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\main_looper.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\message.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\mqtt.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\net_manager.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\notify.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rect.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\resources.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\screen.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\size.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\socket_tcp.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\socket_udp.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\stb_image.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\string_helper.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\thread.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\thread_pool.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\barcode.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\canvas.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\gif.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\image.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\label.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\layer.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\object.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\page.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\qrcode.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\widget.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\image_ins.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\point.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\velocity_tracker.h">
+      <Filter>elui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\main_logic.h">
+      <Filter>elui\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\arc.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\button.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\dashboard.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\led.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\lineinput.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\list.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget\slider.h">
+      <Filter>elui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\template_logic.h">
+      <Filter>elui\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\surface\template_surface.h">
+      <Filter>elui\surface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
