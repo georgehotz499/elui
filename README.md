@@ -1,6 +1,6 @@
 # elui
 
-elui 是一个基于 LVGL 9 的 C++ UI 封装和 Windows 示例工程。`src/widget`
+elui 是一个基于 LVGL 9 的 C++ UI 封装和 Windows VS2022示例工程。`src/widget`
 把常用 LVGL 控件包装成较统一的 C++ 接口，`src/core` 提供日志、资源、图片、
 JSON、线程、HTTP、MQTT 和 Socket 等基础能力。工程采用 UI（Surface）与业务逻辑
 （Logic）分离的方式组织页面。
